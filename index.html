@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>CALCULATAR APP</title>
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body class="back">
+    <div class="cal">
+        <form name="forms">
+            <input type="text" name="Answer" class="texts"><br> <br/>
+            <input type="button" value= 9 onclick="forms.Answer.value +='9'">
+            <input type="button" value= 8 onclick="forms.Answer.value +='8'">
+            <input type="button" value= 7 onclick="forms.Answer.value +='7'">
+            <br> <br/>
+            <input type="button" value= 6 onclick="forms.Answer.value +='6'">
+            <input type="button" value= 5 onclick="forms.Answer.value +='5'">
+            <input type="button" value= 4 onclick="forms.Answer.value +='4'">
+            <br> <br/>
+            <input type="button" value= 3 onclick="forms.Answer.value +='3'">
+            <input type="button" value= 2 onclick="forms.Answer.value +='2'">
+            <input type="button" value= 1 onclick="forms.Answer.value +='1'">
+            <br> <br/>
+             <input type="button" value="0" onclick="forms.Answer.value +='0'">
+            <input type="button" value=":" onclick="forms.Answer.value +=':'">
+            <input type="button" value="+" onclick="forms.Answer.value +='+'">
+            <br> <br/>
+            <input type="button" value="-" onclick="forms.Answer.value +='-'">
+            <input type="button" value="*" onclick="forms.Answer.value +='*'">
+            <input type="button" value="=" onclick="forms.Answer.value =eval(forms.Answer.value)">
+            <br> <br/>
+            <input>
+            <input type="button" value="Clean" onclick="forms.Answer.value =''" id="Clean">
+    </div>
+</body>
+
+</html> 
